@@ -112,6 +112,15 @@ function SendStatement() {
             cExtentions["https://w3id.org/xapi/cmi5/context/extensions/masteryScore"] = masteryScore;
         }
 
+        activityProperties = {
+          objectType: "Activity",
+          id: activityId,
+          definition: {
+            name: { "en-US": "CMI5 Simulator" },
+            description: { "en-US": "CMI5 Simulator" }
+          }
+        };
+
         // Get basic cmi5 defined statement object
         var stmt = cmi5Controller.getcmi5DefinedStatement(agent,
                                                           verb,
