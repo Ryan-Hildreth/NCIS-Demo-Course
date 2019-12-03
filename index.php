@@ -1,1 +1,1 @@
-<?php include_once("AUExample1.html"); ?>
+<?php echo "INDEX"; ?>

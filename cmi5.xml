@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <courseStructure xmlns="https://w3id.org/xapi/profiles/cmi5/v1/CourseStructure.xsd">
-  <course id="http://course-repository.example.edu/identifiers/courses/09bAaecb">
+  <course id="https://lko-ptdv-app07.yoda.local/cmi5/cmi5AUSimulator/course">
     <title>
-      <langstring lang="en-US">ADL Sample Course One</langstring>
+      <langstring lang="en-US">CMI5 Simulator Course</langstring>
     </title>
     <description>
-      <langstring lang="en-US">
-        This is an example of a course with a single AU.  The moveOn criteria is Completed.
-      </langstring>
+      <langstring lang="en-US">CMI5 Simulator Course</langstring>
     </description>
   </course>
-  <au id="http://course-repository.example.edu/identifiers/courses/09bAaecb/aus/5c09" moveOn="Completed" >
+  <au id="https://lko-ptdv-app07.yoda.local/cmi5/cmi5AUSimulator/001" masteryScore="1.0" launchMethod="AnyWindow" moveOn="CompletedOrPassed">
     <title>
-      <langstring lang="en-US">AU Number 1</langstring>
+      <langstring lang="en-US">CMI5 Simulator</langstring>
     </title>
     <description>
-      <langstring lang="en-US">
-        A simple AU utilizing the ADL cmi5Controller library.
-      </langstring>
+      <langstring lang="en-US">CMI5 Simulator</langstring>
     </description>
-    <url>AUExample1.html</url>
+    <url>./cmi5AUSimulator.html</url>
   </au>
 </courseStructure>
